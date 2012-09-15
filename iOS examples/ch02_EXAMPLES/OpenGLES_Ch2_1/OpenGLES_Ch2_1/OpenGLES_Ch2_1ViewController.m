@@ -38,47 +38,56 @@ static const SceneVertex vertices[] =
 // Perform initialization before the view is asked to draw
 - (void)viewDidLoad
 {
-   [super viewDidLoad];
-   
-   // Verify the type of view created automatically by the
-   // Interface Builder storyboard
-   GLKView *view = (GLKView *)self.view;
-   NSAssert([view isKindOfClass:[GLKView class]],
-      @"View controller's view is not a GLKView");
-   
-   // Create an OpenGL ES 2.0 context and provide it to the
-   // view
-   view.context = [[EAGLContext alloc] 
-      initWithAPI:kEAGLRenderingAPIOpenGLES2];
-   
-   // Make the new context current
-   [EAGLContext setCurrentContext:view.context];
-   
-   // Create a base effect that provides standard OpenGL ES 2.0
-   // Shading Language programs and set constants to be used for 
-   // all subsequent rendering
-   self.baseEffect = [[GLKBaseEffect alloc] init];
-   self.baseEffect.useConstantColor = GL_TRUE;
-   self.baseEffect.constantColor = GLKVector4Make(
-      1.0f, // Red
-      1.0f, // Green
-      1.0f, // Blue
-      1.0f);// Alpha
-   
-   // Set the background color stored in the current context 
-   glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // background color
-   
-   // Generate, bind, and initialize contents of a buffer to be 
-   // stored in GPU memory
-   glGenBuffers(1,                // STEP 1
-      &vertexBufferID);
-   glBindBuffer(GL_ARRAY_BUFFER,  // STEP 2
-      vertexBufferID); 
-   glBufferData(                  // STEP 3
-      GL_ARRAY_BUFFER,  // Initialize buffer contents
-      sizeof(vertices), // Number of bytes to copy
-      vertices,         // Address of bytes to copy
-      GL_STATIC_DRAW);  // Hint: cache in GPU memory
+    [super viewDidLoad];
+    
+    // NOTE: Buck's example casts view type to GLKView, then calls isKindOfClass.
+    // For clarity, check isKindOfClass before cast.
+    // Casting the pointer tells the compiler that the pointer points to a GLKView object,
+    // but it doesn't change the object. The object's isa pointer and type are unchanged.
+    // http://stackoverflow.com/questions/1236434/how-to-cast-class-a-to-its-subclass-class-b-objective-c
+    //     UIView *aView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+    //     GLKView *aViewCast = (GLKView *)aView;
+    // This assertion would fail.
+    //     NSAssert([aViewCast isKindOfClass:[GLKView class]], @"aViewCast is not a GLKView");
+    
+    // Verify the type of view created by the storyboard
+    NSAssert([self.view isKindOfClass:[GLKView class]],
+             @"View controller's view is not a GLKView");
+    
+    GLKView *view = (GLKView *)self.view;
+    
+    // Create an OpenGL ES 2.0 context and provide it to the view
+    view.context = [[EAGLContext alloc]
+                    initWithAPI:kEAGLRenderingAPIOpenGLES2];
+    
+    // Make the new context current
+    [EAGLContext setCurrentContext:view.context];
+    
+    // Create a base effect that provides standard OpenGL ES 2.0
+    // Shading Language programs and set constants to be used for
+    // all subsequent rendering
+    self.baseEffect = [[GLKBaseEffect alloc] init];
+    self.baseEffect.useConstantColor = GL_TRUE;
+    self.baseEffect.constantColor = GLKVector4Make(
+                                                   1.0f, // Red
+                                                   1.0f, // Green
+                                                   1.0f, // Blue
+                                                   1.0f);// Alpha
+    
+    // Set the background color stored in the current context
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // background color
+    
+    // Generate, bind, and initialize contents of a buffer to be
+    // stored in GPU memory
+    glGenBuffers(1,                // STEP 1
+                 &vertexBufferID);
+    glBindBuffer(GL_ARRAY_BUFFER,  // STEP 2
+                 vertexBufferID);
+    glBufferData(                  // STEP 3
+                 GL_ARRAY_BUFFER,  // Initialize buffer contents
+                 sizeof(vertices), // Number of bytes to copy
+                 vertices,         // Address of bytes to copy
+                 GL_STATIC_DRAW);  // Hint: cache in GPU memory
 }
 
 
