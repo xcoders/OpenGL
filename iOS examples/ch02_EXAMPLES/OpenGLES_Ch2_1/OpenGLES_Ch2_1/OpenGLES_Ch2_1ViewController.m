@@ -116,28 +116,31 @@ static const SceneVertex vertices[] =
 
 
 /////////////////////////////////////////////////////////////////
-// Called when the view controller's view has been unloaded
-// Perform clean-up that is possible when you know the view 
-// controller's view won't be asked to draw again soon.
-- (void)viewDidUnload
+// ARC doesn't automatically memory manage OpenGL items such as textures, framebuffers, VBOs.
+// Because viewDidUnload is deprecated in iOS 6, moved code to dealloc.
+// In this version of the app, it wouldn't make sense to put the code in didReceiveMemoryWarning,
+// because the context never would be reloaded.
+// References:
+// http://stackoverflow.com/questions/12354576/crash-with-received-memory-warning-message-utilizing-glkit-and-arc
+// http://9to5mac.com/2012/06/25/apple-pushes-ios-6-0-update-to-devs/
+// http://developer.apple.com/library/mac/#releasenotes/ObjectiveC/RN-TransitioningToARC/Introduction/Introduction.html
+- (void)dealloc
 {
-   [super viewDidUnload];
-   
-   // Make the view's context current
-   GLKView *view = (GLKView *)self.view;
-   [EAGLContext setCurrentContext:view.context];
+    // Make the view's context current
+    GLKView *view = (GLKView *)self.view;
+    [EAGLContext setCurrentContext:view.context];
     
-   // Delete buffers that aren't needed when view is unloaded
-   if (0 != vertexBufferID)
-   {
-      glDeleteBuffers (1,          // STEP 7 
-                       &vertexBufferID);  
-      vertexBufferID = 0;
-   }
-   
-   // Stop using the context created in -viewDidLoad
-   ((GLKView *)self.view).context = nil;
-   [EAGLContext setCurrentContext:nil];
+    // Delete buffers that aren't needed when view is unloaded
+    if (0 != vertexBufferID)
+    {
+        glDeleteBuffers (1,          // STEP 7
+                         &vertexBufferID);
+        vertexBufferID = 0;
+    }
+    
+    // Stop using the context created in -viewDidLoad
+    ((GLKView *)self.view).context = nil;
+    [EAGLContext setCurrentContext:nil];
 }
 
 @end
