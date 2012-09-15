@@ -11,18 +11,25 @@
 
 /////////////////////////////////////////////////////////////////
 // This data type is used to store information for each vertex
+// SceneVertex is a struct with one member positionCoords.
+// positionCoords is a variable of type GLKVector3.
+// GLKVector3 represents a vector with 3 components.
+// GLKVector3 is a C union, similar to a struct.
+// http://en.wikipedia.org/wiki/Union_(computer_science)
+// Here GLKVector3 represents position x,y,z.
 typedef struct {
-   GLKVector3  positionCoords;
+    GLKVector3  positionCoords;
 }
 SceneVertex;
 
 /////////////////////////////////////////////////////////////////
 // Define vertex data for a triangle to use in example
+// vertices[] is an array with elements of type SceneVertex
 static const SceneVertex vertices[] = 
 {
-   {{-0.5f, -0.5f, 0.0}}, // lower left corner
-   {{ 0.5f, -0.5f, 0.0}}, // lower right corner
-   {{-0.5f,  0.5f, 0.0}}  // upper left corner
+    {{-0.5f, -0.5f, 0.0}}, // lower left corner
+    {{ 0.5f, -0.5f, 0.0}}, // lower right corner
+    {{-0.5f,  0.5f, 0.0}}  // upper left corner
 };
 
 
