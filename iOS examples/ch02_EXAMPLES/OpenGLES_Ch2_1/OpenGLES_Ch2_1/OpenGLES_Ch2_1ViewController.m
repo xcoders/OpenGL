@@ -96,31 +96,37 @@ static const SceneVertex vertices[] =
 // whenever Cocoa Touch asks the view controller's view to
 // draw itself. (In this case, render into a frame buffer that
 // shares memory with a Core Animation Layer)
+
+// The storyboard explicitly sets the view controller's view,
+// which implicitly sets the view's delegate to the view controller.
+// "When you set the view property to point to a GLKView object,
+// if the view does not already have a delegate, then the view controller is automatically set as the view’s delegate."
+// http://developer.apple.com/library/ios/#documentation/GLkit/Reference/GLKViewController_ClassRef/Reference/Reference.html
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect
 {
-   [self.baseEffect prepareToDraw];
-   
-   // Clear Frame Buffer (erase previous drawing)
-   glClear(GL_COLOR_BUFFER_BIT);
-   
-   // Enable use of positions from bound vertex buffer
-   glEnableVertexAttribArray(      // STEP 4
-      GLKVertexAttribPosition);
-      
-   glVertexAttribPointer(          // STEP 5
-      GLKVertexAttribPosition, 
-      3,                   // three components per vertex
-      GL_FLOAT,            // data is floating point
-      GL_FALSE,            // no fixed point scaling
-      sizeof(SceneVertex), // no gaps in data
-      NULL);               // NULL tells GPU to start at 
-                           // beginning of bound buffer
-                                   
-   // Draw triangles using the first three vertices in the 
-   // currently bound vertex buffer
-   glDrawArrays(GL_TRIANGLES,      // STEP 6
-      0,  // Start with first vertex in currently bound buffer
-      3); // Use three vertices from currently bound buffer
+    [self.baseEffect prepareToDraw];
+    
+    // Clear Frame Buffer (erase previous drawing)
+    glClear(GL_COLOR_BUFFER_BIT);
+    
+    // Enable use of positions from bound vertex buffer
+    glEnableVertexAttribArray(      // STEP 4
+                              GLKVertexAttribPosition);
+    
+    glVertexAttribPointer(          // STEP 5
+                          GLKVertexAttribPosition,
+                          3,                   // three components per vertex
+                          GL_FLOAT,            // data is floating point
+                          GL_FALSE,            // no fixed point scaling
+                          sizeof(SceneVertex), // no gaps in data
+                          NULL);               // NULL tells GPU to start at
+    // beginning of bound buffer
+    
+    // Draw triangles using the first three vertices in the
+    // currently bound vertex buffer
+    glDrawArrays(GL_TRIANGLES,      // STEP 6
+                 0,  // Start with first vertex in currently bound buffer
+                 3); // Use three vertices from currently bound buffer
 }
 
 
