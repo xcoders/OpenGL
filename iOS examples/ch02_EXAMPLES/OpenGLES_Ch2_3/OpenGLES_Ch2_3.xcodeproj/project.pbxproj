@@ -24,6 +24,7 @@
 		03D4E6AE13EDEAB5007A9B0E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4E6AB13EDEAB5007A9B0E /* GLKit.framework */; };
 		03E2649F1529E8E700012BF2 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2649C1529E8E700012BF2 /* AGLKContext.m */; };
 		03E264A01529E8E700012BF2 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2649E1529E8E700012BF2 /* AGLKVertexAttribArrayBuffer.m */; };
+		2BEDBD7C160D0A07008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBD7B160D0A07008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		03E2649C1529E8E700012BF2 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKContext.m; path = ../../../AGLKit/AGLKContext.m; sourceTree = "<group>"; };
 		03E2649D1529E8E700012BF2 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGLKVertexAttribArrayBuffer.h; path = ../../../AGLKit/AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
 		03E2649E1529E8E700012BF2 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKVertexAttribArrayBuffer.m; path = ../../../AGLKit/AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		2BEDBD7B160D0A07008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		03D4E67413EDEA78007A9B0E = {
 			isa = PBXGroup;
 			children = (
+				2BEDBD7B160D0A07008AB839 /* Default-568h@2x.png */,
 				03D4E68913EDEA78007A9B0E /* OpenGLES_Ch2_3 */,
 				03D4E68213EDEA78007A9B0E /* Frameworks */,
 				03D4E68013EDEA78007A9B0E /* Products */,
@@ -188,6 +191,7 @@
 				03D4E6A413EDEA9A007A9B0E /* OpenGL_ES_for_iOS_57x57.png in Resources */,
 				03D4E6A613EDEA9D007A9B0E /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				03D4E6A813EDEAA3007A9B0E /* OpenGL_ES_for_iOS_72x72.png in Resources */,
+				2BEDBD7C160D0A07008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

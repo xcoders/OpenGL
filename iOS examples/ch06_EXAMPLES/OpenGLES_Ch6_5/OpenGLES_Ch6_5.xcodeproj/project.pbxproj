@@ -31,6 +31,7 @@
 		03E262F415293CD200012BF2 /* SceneAnimatedMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E262EF15293CD200012BF2 /* SceneAnimatedMesh.m */; };
 		03E262F515293CD200012BF2 /* SceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E262F115293CD200012BF2 /* SceneMesh.m */; };
 		03E262F615293CD200012BF2 /* SceneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E262F315293CD200012BF2 /* SceneModel.m */; };
+		2BEDBDC3160D12CB008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDC2160D12CB008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		03E262F115293CD200012BF2 /* SceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneMesh.m; path = ../../CommonCode/SceneMesh.m; sourceTree = "<group>"; };
 		03E262F215293CD200012BF2 /* SceneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneModel.h; path = ../../CommonCode/SceneModel.h; sourceTree = "<group>"; };
 		03E262F315293CD200012BF2 /* SceneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneModel.m; path = ../../CommonCode/SceneModel.m; sourceTree = "<group>"; };
+		2BEDBDC2160D12CB008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		035CFC001401DC6C00B09C4D = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDC2160D12CB008AB839 /* Default-568h@2x.png */,
 				035CFC131401DC6C00B09C4D /* OpenGLES_Ch6_5 */,
 				035CFC0E1401DC6C00B09C4D /* Frameworks */,
 				035CFC0C1401DC6C00B09C4D /* Products */,
@@ -232,6 +235,7 @@
 				035CFC301401DC8D00B09C4D /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				035CFC321401DC9000B09C4D /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				035CFC521401DD5500B09C4D /* RabbitTextureAtlas.png in Resources */,
+				2BEDBDC3160D12CB008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

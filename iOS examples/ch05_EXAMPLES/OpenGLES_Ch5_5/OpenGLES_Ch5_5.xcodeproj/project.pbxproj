@@ -28,6 +28,7 @@
 		03E263411529415200012BF2 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E263371529415200012BF2 /* AGLKVertexAttribArrayBuffer.m */; };
 		03E263461529415200012BF2 /* AGLKTextureMatrix2PointLightShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 03E2633D1529415200012BF2 /* AGLKTextureMatrix2PointLightShader.fsh */; };
 		03E263471529415200012BF2 /* AGLKTextureMatrix2PointLightShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 03E2633E1529415200012BF2 /* AGLKTextureMatrix2PointLightShader.vsh */; };
+		2BEDBDB1160D11DD008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDB0160D11DD008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		03E263371529415200012BF2 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKVertexAttribArrayBuffer.m; path = ../../../AGLKit/AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
 		03E2633D1529415200012BF2 /* AGLKTextureMatrix2PointLightShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.fsh; sourceTree = "<group>"; };
 		03E2633E1529415200012BF2 /* AGLKTextureMatrix2PointLightShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.vsh; sourceTree = "<group>"; };
+		2BEDBDB0160D11DD008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		033C2E1013F8B66C0009AF5B = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDB0160D11DD008AB839 /* Default-568h@2x.png */,
 				033C2E2313F8B66C0009AF5B /* OpenGLES_Ch5_5 */,
 				033C2E1E13F8B66C0009AF5B /* Frameworks */,
 				033C2E1C13F8B66C0009AF5B /* Products */,
@@ -214,6 +217,7 @@
 				03B2ED891454DBF80096913B /* OpenGL_ES_for_iOS_57x57.png in Resources */,
 				03B2ED8C1454DBFB0096913B /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				03B2ED8E1454DC0C0096913B /* OpenGL_ES_for_iOS_72x72.png in Resources */,
+				2BEDBDB1160D11DD008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,6 +30,7 @@
 		03F18B2414057D4F00C20098 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F18B2114057D4F00C20098 /* QuartzCore.framework */; };
 		03F18B2514057D4F00C20098 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F18B2214057D4F00C20098 /* GLKit.framework */; };
 		03F18B2A14057DE000C20098 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F18B2714057DE000C20098 /* AGLKContext.m */; };
+		2BEDBDC6160D12F5008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDC5160D12F5008AB839 /* Default-568h@2x.png */; };
 		63A1445B152E39ED00D00DE0 /* bumper.modelplist in Resources */ = {isa = PBXBuildFile; fileRef = 63A1445A152E39ED00D00DE0 /* bumper.modelplist */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		03F18B2214057D4F00C20098 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		03F18B2614057DE000C20098 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
 		03F18B2714057DE000C20098 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		2BEDBDC5160D12F5008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63A1445A152E39ED00D00DE0 /* bumper.modelplist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = bumper.modelplist; path = ../../Resources/bumper.modelplist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 		03F18AE914057D0B00C20098 = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDC5160D12F5008AB839 /* Default-568h@2x.png */,
 				03F18AFC14057D0B00C20098 /* OpenGLES_Ch7_1 */,
 				03F18AF714057D0B00C20098 /* Frameworks */,
 				03F18AF514057D0B00C20098 /* Products */,
@@ -233,6 +236,7 @@
 				03F18B1D14057D3100C20098 /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				03F18B1F14057D3900C20098 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				63A1445B152E39ED00D00DE0 /* bumper.modelplist in Resources */,
+				2BEDBDC6160D12F5008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

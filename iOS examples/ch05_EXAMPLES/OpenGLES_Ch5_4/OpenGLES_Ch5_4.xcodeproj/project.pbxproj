@@ -23,6 +23,7 @@
 		033C2DEF13F86BAA0009AF5B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033C2DEC13F86BAA0009AF5B /* GLKit.framework */; };
 		03E2632A152940E200012BF2 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E26327152940E200012BF2 /* AGLKContext.m */; };
 		03E2632B152940E200012BF2 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E26329152940E200012BF2 /* AGLKVertexAttribArrayBuffer.m */; };
+		2BEDBDAE160D117E008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDAD160D117E008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		03E26328152940E200012BF2 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGLKVertexAttribArrayBuffer.h; path = ../../../AGLKit/AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
 		03E26329152940E200012BF2 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKVertexAttribArrayBuffer.m; path = ../../../AGLKit/AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
 		03E2632C1529410B00012BF2 /* lowPolyAxesAndModels2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lowPolyAxesAndModels2.h; path = ../../Resources/lowPolyAxesAndModels2.h; sourceTree = "<group>"; };
+		2BEDBDAD160D117E008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		033C2DB713F86B620009AF5B = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDAD160D117E008AB839 /* Default-568h@2x.png */,
 				033C2DCA13F86B630009AF5B /* OpenGLES_Ch5_4 */,
 				033C2DC513F86B630009AF5B /* Frameworks */,
 				033C2DC313F86B630009AF5B /* Products */,
@@ -186,6 +189,7 @@
 				033C2DE513F86B810009AF5B /* OpenGL_ES_for_iOS_57x57.png in Resources */,
 				033C2DE713F86B870009AF5B /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				033C2DE913F86B8E0009AF5B /* OpenGL_ES_for_iOS_72x72.png in Resources */,
+				2BEDBDAE160D117E008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

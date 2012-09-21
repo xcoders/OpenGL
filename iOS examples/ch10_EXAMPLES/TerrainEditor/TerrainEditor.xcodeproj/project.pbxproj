@@ -311,7 +311,7 @@
 		0380DEA21440C8BB009B309E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 0380DEA51440C8BB009B309E /* Build configuration list for PBXProject "TerrainEditor" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -474,6 +474,7 @@
 		0380DED01440C8BB009B309E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TerrainEditor/TerrainEditor-Prefix.pch";
 				INFOPLIST_FILE = "TerrainEditor/TerrainEditor-Info.plist";
@@ -485,6 +486,7 @@
 		0380DED11440C8BB009B309E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TerrainEditor/TerrainEditor-Prefix.pch";
 				INFOPLIST_FILE = "TerrainEditor/TerrainEditor-Info.plist";

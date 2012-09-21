@@ -26,6 +26,7 @@
 		03E2631E152940A300012BF2 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E26318152940A300012BF2 /* AGLKVertexAttribArrayBuffer.m */; };
 		03E2631F152940A300012BF2 /* AGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2631A152940A300012BF2 /* AGLKView.m */; };
 		03E26320152940A300012BF2 /* AGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2631C152940A300012BF2 /* AGLKViewController.m */; };
+		2BEDBDAB160D115D008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDAA160D115D008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		03E2631A152940A300012BF2 /* AGLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKView.m; path = ../../../AGLKit/AGLKView.m; sourceTree = "<group>"; };
 		03E2631B152940A300012BF2 /* AGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGLKViewController.h; path = ../../../AGLKit/AGLKViewController.h; sourceTree = "<group>"; };
 		03E2631C152940A300012BF2 /* AGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKViewController.m; path = ../../../AGLKit/AGLKViewController.m; sourceTree = "<group>"; };
+		2BEDBDAA160D115D008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0399F25213F78FBB0047A2CC = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDAA160D115D008AB839 /* Default-568h@2x.png */,
 				0399F26513F78FBC0047A2CC /* OpenGLES_Ch5_3 */,
 				0399F26013F78FBC0047A2CC /* Frameworks */,
 				0399F25E13F78FBC0047A2CC /* Products */,
@@ -200,6 +203,7 @@
 				0399F28213F78FD30047A2CC /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				0399F28413F78FD90047A2CC /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				0399F29313F790000047A2CC /* Earth512x256.jpg in Resources */,
+				2BEDBDAB160D115D008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

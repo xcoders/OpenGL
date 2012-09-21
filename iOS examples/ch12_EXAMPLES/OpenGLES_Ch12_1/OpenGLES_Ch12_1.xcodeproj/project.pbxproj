@@ -72,6 +72,7 @@
 		03DD838E14FB082C009FDC1A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DD838A14FB082C009FDC1A /* GLKit.framework */; };
 		03DD838F14FB082C009FDC1A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DD838B14FB082C009FDC1A /* CoreData.framework */; };
 		03E264B81529F1EE00012BF2 /* trail.binary in Resources */ = {isa = PBXBuildFile; fileRef = 03E264B71529F1EE00012BF2 /* trail.binary */; };
+		2BEDBD92160D0BA5008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBD91160D0BA5008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,6 +174,7 @@
 		03DD838A14FB082C009FDC1A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		03DD838B14FB082C009FDC1A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		03E264B71529F1EE00012BF2 /* trail.binary */ = {isa = PBXFileReference; lastKnownFileType = file; name = trail.binary; path = ../../Resources/trail.binary; sourceTree = "<group>"; };
+		2BEDBD91160D0BA5008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 		03DD82F514FB0581009FDC1A = {
 			isa = PBXGroup;
 			children = (
+				2BEDBD91160D0BA5008AB839 /* Default-568h@2x.png */,
 				03DD830A14FB0581009FDC1A /* OpenGLES_Ch12_1 */,
 				03DD830314FB0581009FDC1A /* Frameworks */,
 				03DD830114FB0581009FDC1A /* Products */,
@@ -456,6 +459,7 @@
 				0323A0651514EC210089AED7 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				0323A0661514EC210089AED7 /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				03E264B81529F1EE00012BF2 /* trail.binary in Resources */,
+				2BEDBD92160D0BA5008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

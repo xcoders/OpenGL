@@ -30,6 +30,7 @@
 		03C3DF3D142512430052D713 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C3DF3A142512430052D713 /* OpenGLES.framework */; };
 		03C3DF3E142512430052D713 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C3DF3B142512430052D713 /* QuartzCore.framework */; };
 		03C3DF3F142512430052D713 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C3DF3C142512430052D713 /* GLKit.framework */; };
+		2BEDBDD5160D132D008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDD4160D132D008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		03C3DF3A142512430052D713 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		03C3DF3B142512430052D713 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		03C3DF3C142512430052D713 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2BEDBDD4160D132D008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		03C3DF051425120E0052D713 = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDD4160D132D008AB839 /* Default-568h@2x.png */,
 				03C3DF1A1425120E0052D713 /* OpenGLES_Ch8_3 */,
 				03C3DF131425120E0052D713 /* Frameworks */,
 				03C3DF111425120E0052D713 /* Products */,
@@ -231,6 +234,7 @@
 				032CE0D71515319700484D45 /* ball.png in Resources */,
 				032CE0D91515319700484D45 /* burst.png in Resources */,
 				032CE0DB1515319700484D45 /* smoke.png in Resources */,
+				2BEDBDD5160D132D008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

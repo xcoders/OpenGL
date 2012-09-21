@@ -38,6 +38,7 @@
 		037A55A3152911C00072DF08 /* UtilityMesh+skinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A55A2152911C00072DF08 /* UtilityMesh+skinning.m */; };
 		037A55A6152911F60072DF08 /* UtilityModel+skinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A55A5152911F60072DF08 /* UtilityModel+skinning.m */; };
 		037A55AA152913040072DF08 /* UtilityModelManager+skinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A55A9152913040072DF08 /* UtilityModelManager+skinning.m */; };
+		2BEDBDC9160D1303008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDC8160D1303008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		037A55A5152911F60072DF08 /* UtilityModel+skinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UtilityModel+skinning.m"; path = "../../../Utility/UtilityModel+skinning.m"; sourceTree = "<group>"; };
 		037A55A8152913030072DF08 /* UtilityModelManager+skinning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UtilityModelManager+skinning.h"; path = "../../../Utility/UtilityModelManager+skinning.h"; sourceTree = "<group>"; };
 		037A55A9152913040072DF08 /* UtilityModelManager+skinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UtilityModelManager+skinning.m"; path = "../../../Utility/UtilityModelManager+skinning.m"; sourceTree = "<group>"; };
+		2BEDBDC8160D1303008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		030FAB28141EF072008CD3D0 = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDC8160D1303008AB839 /* Default-568h@2x.png */,
 				030FAB3D141EF073008CD3D0 /* OpenGLES_Ch7_2 */,
 				030FAB36141EF073008CD3D0 /* Frameworks */,
 				030FAB34141EF073008CD3D0 /* Products */,
@@ -274,6 +277,7 @@
 				030FAB5A141EF0A0008CD3D0 /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				030FAB5C141EF0A3008CD3D0 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				030FAB81141EF260008CD3D0 /* armature.modelplist in Resources */,
+				2BEDBDC9160D1303008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

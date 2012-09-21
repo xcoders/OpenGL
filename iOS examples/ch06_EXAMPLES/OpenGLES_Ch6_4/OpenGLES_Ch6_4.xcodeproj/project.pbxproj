@@ -31,6 +31,7 @@
 		03E262E515293C8300012BF2 /* SceneAnimatedMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E262E015293C8300012BF2 /* SceneAnimatedMesh.m */; };
 		03E262E615293C8300012BF2 /* SceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E262E215293C8300012BF2 /* SceneMesh.m */; };
 		03E262E715293C8300012BF2 /* SceneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E262E415293C8300012BF2 /* SceneModel.m */; };
+		2BEDBDC0160D1226008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDBF160D1226008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		03E262E215293C8300012BF2 /* SceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneMesh.m; path = ../../CommonCode/SceneMesh.m; sourceTree = "<group>"; };
 		03E262E315293C8300012BF2 /* SceneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneModel.h; path = ../../CommonCode/SceneModel.h; sourceTree = "<group>"; };
 		03E262E415293C8300012BF2 /* SceneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneModel.m; path = ../../CommonCode/SceneModel.m; sourceTree = "<group>"; };
+		2BEDBDBF160D1226008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		0362B40014009AAA005672CB = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDBF160D1226008AB839 /* Default-568h@2x.png */,
 				0362B41314009AAA005672CB /* OpenGLES_Ch6_4 */,
 				0362B40E14009AAA005672CB /* Frameworks */,
 				0362B40C14009AAA005672CB /* Products */,
@@ -232,6 +235,7 @@
 				0362B43014009ACF005672CB /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				0362B43214009AD3005672CB /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				0362B47214009EB1005672CB /* RadiusSelectionTool.png in Resources */,
+				2BEDBDC0160D1226008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

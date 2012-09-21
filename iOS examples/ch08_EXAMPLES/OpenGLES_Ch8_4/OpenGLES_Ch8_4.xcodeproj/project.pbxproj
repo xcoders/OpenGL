@@ -34,6 +34,7 @@
 		03D2730C14290A6D00513EC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D2730914290A6D00513EC7 /* QuartzCore.framework */; };
 		03D2730D14290A6D00513EC7 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D2730A14290A6D00513EC7 /* GLKit.framework */; };
 		03F2E6C01516444200D89504 /* park.modelplist in Resources */ = {isa = PBXBuildFile; fileRef = 03F2E6BA1516444200D89504 /* park.modelplist */; };
+		2BEDBD82160D0A51008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBD81160D0A51008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		03D2730914290A6D00513EC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		03D2730A14290A6D00513EC7 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		03F2E6BA1516444200D89504 /* park.modelplist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = park.modelplist; sourceTree = "<group>"; };
+		2BEDBD81160D0A51008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		03D272D31429043C00513EC7 = {
 			isa = PBXGroup;
 			children = (
+				2BEDBD81160D0A51008AB839 /* Default-568h@2x.png */,
 				03D272E81429043C00513EC7 /* OpenGLES_Ch8_4 */,
 				03D272E11429043C00513EC7 /* Frameworks */,
 				03D272DF1429043C00513EC7 /* Products */,
@@ -256,6 +259,7 @@
 				03D2730514290A4A00513EC7 /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				03D2730714290A4E00513EC7 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				03F2E6C01516444200D89504 /* park.modelplist in Resources */,
+				2BEDBD82160D0A51008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,6 +28,7 @@
 		03E2625715292B7400012BF2 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2625515292B7400012BF2 /* AGLKVertexAttribArrayBuffer.m */; };
 		03E262C115293AE900012BF2 /* SceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E262BE15293AE900012BF2 /* SceneMesh.m */; };
 		03E262C215293AE900012BF2 /* SceneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E262C015293AE900012BF2 /* SceneModel.m */; };
+		2BEDBDB7160D1200008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDB6160D1200008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		03E262BE15293AE900012BF2 /* SceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneMesh.m; path = ../../CommonCode/SceneMesh.m; sourceTree = "<group>"; };
 		03E262BF15293AE900012BF2 /* SceneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneModel.h; path = ../../CommonCode/SceneModel.h; sourceTree = "<group>"; };
 		03E262C015293AE900012BF2 /* SceneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneModel.m; path = ../../CommonCode/SceneModel.m; sourceTree = "<group>"; };
+		2BEDBDB6160D1200008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		0364A80113FA33E500F48BE4 = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDB6160D1200008AB839 /* Default-568h@2x.png */,
 				0364A81413FA33E600F48BE4 /* OpenGLES_Ch6_1 */,
 				0364A80F13FA33E500F48BE4 /* Frameworks */,
 				0364A80D13FA33E500F48BE4 /* Products */,
@@ -213,6 +216,7 @@
 				0310017E13FB2D0A00AB0F4B /* OpenGL_ES_for_iOS_57x57.png in Resources */,
 				0310018113FB2D0E00AB0F4B /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				0310018313FB2D1700AB0F4B /* OpenGL_ES_for_iOS_72x72.png in Resources */,
+				2BEDBDB7160D1200008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

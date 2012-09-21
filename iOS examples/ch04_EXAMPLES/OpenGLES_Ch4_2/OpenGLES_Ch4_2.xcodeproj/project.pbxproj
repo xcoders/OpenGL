@@ -26,6 +26,7 @@
 		0388DF3B13F4C26900ED0A77 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 0388DF3A13F4C26900ED0A77 /* grid.png */; };
 		03E2640D152959F900012BF2 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2640A152959F900012BF2 /* AGLKContext.m */; };
 		03E2640E152959F900012BF2 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2640C152959F900012BF2 /* AGLKVertexAttribArrayBuffer.m */; };
+		2BEDBDA5160D113F008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDA4160D113F008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		03E2640A152959F900012BF2 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKContext.m; path = ../../../AGLKit/AGLKContext.m; sourceTree = "<group>"; };
 		03E2640B152959F900012BF2 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGLKVertexAttribArrayBuffer.h; path = ../../../AGLKit/AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
 		03E2640C152959F900012BF2 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKVertexAttribArrayBuffer.m; path = ../../../AGLKit/AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		2BEDBDA4160D113F008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		0388DEED13F4BB8000ED0A77 = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDA4160D113F008AB839 /* Default-568h@2x.png */,
 				0388DF0013F4BB8100ED0A77 /* OpenGLES_Ch4_2 */,
 				0388DEFB13F4BB8000ED0A77 /* Frameworks */,
 				0388DEF913F4BB8000ED0A77 /* Products */,
@@ -196,6 +199,7 @@
 				0388DF3B13F4C26900ED0A77 /* grid.png in Resources */,
 				036FD39013F598E1006004A1 /* Lighting256x256.png in Resources */,
 				036FD39113F598E1006004A1 /* LightingDetail256x256.png in Resources */,
+				2BEDBDA5160D113F008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

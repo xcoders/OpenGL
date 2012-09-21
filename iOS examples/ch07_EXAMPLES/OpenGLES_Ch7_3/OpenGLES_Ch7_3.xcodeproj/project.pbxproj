@@ -38,6 +38,7 @@
 		037A55671529061B0072DF08 /* UtilityModelManager+skinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A55661529061B0072DF08 /* UtilityModelManager+skinning.m */; };
 		037A556A1529063F0072DF08 /* UtilityModel+skinning.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A55691529063F0072DF08 /* UtilityModel+skinning.m */; };
 		03C333BE15269C150028ACE8 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C333BD15269C150028ACE8 /* AGLKContext.m */; };
+		2BEDBDCC160D130A008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDCB160D130A008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		037A55691529063F0072DF08 /* UtilityModel+skinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UtilityModel+skinning.m"; path = "../../../Utility/UtilityModel+skinning.m"; sourceTree = "<group>"; };
 		03C333BC15269C150028ACE8 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGLKContext.h; path = ../../../AGLKit/AGLKContext.h; sourceTree = "<group>"; };
 		03C333BD15269C150028ACE8 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKContext.m; path = ../../../AGLKit/AGLKContext.m; sourceTree = "<group>"; };
+		2BEDBDCB160D130A008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		035018E6141BE85300BF3FF2 = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDCB160D130A008AB839 /* Default-568h@2x.png */,
 				035018FB141BE85400BF3FF2 /* OpenGLES_Ch7_3 */,
 				035018F4141BE85400BF3FF2 /* Frameworks */,
 				035018F2141BE85400BF3FF2 /* Products */,
@@ -274,6 +277,7 @@
 				0350191E141BE92300BF3FF2 /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				03501920141BE92B00BF3FF2 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				037A55601529024A0072DF08 /* armatureSkin.modelplist in Resources */,
+				2BEDBDCC160D130A008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

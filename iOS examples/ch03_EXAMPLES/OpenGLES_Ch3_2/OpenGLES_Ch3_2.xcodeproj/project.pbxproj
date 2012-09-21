@@ -26,6 +26,7 @@
 		03EB88B913F05B54008DB487 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EB88B613F05B54008DB487 /* OpenGLES.framework */; };
 		03EB88BA13F05B54008DB487 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EB88B713F05B54008DB487 /* QuartzCore.framework */; };
 		03EB88BB13F05B54008DB487 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EB88B813F05B54008DB487 /* GLKit.framework */; };
+		2BEDBD79160CFF08008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBD78160CFF08008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		03EB88B613F05B54008DB487 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		03EB88B713F05B54008DB487 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		03EB88B813F05B54008DB487 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2BEDBD78160CFF08008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		0345CD6E13F05ABA0089B01C = {
 			isa = PBXGroup;
 			children = (
+				2BEDBD78160CFF08008AB839 /* Default-568h@2x.png */,
 				0345CD8313F05ABA0089B01C /* OpenGLES_Ch3_2 */,
 				0345CD7C13F05ABA0089B01C /* Frameworks */,
 				0345CD7A13F05ABA0089B01C /* Products */,
@@ -197,6 +200,7 @@
 				0345CDA013F05AFD0089B01C /* OpenGL_ES_for_iOS_114x114.png in Resources */,
 				0345CDA213F05B050089B01C /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				036911CB13F05C0400B8EFE5 /* leaves.gif in Resources */,
+				2BEDBD79160CFF08008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

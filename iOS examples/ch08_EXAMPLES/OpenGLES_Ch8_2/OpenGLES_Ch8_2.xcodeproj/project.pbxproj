@@ -35,6 +35,7 @@
 		0349E38F14229AF100A5B011 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0349E38C14229AF100A5B011 /* OpenGLES.framework */; };
 		0349E39014229AF100A5B011 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0349E38D14229AF100A5B011 /* QuartzCore.framework */; };
 		0349E39114229AF100A5B011 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0349E38E14229AF100A5B011 /* GLKit.framework */; };
+		2BEDBDD2160D1321008AB839 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDBDD1160D1321008AB839 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		0349E38C14229AF100A5B011 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		0349E38D14229AF100A5B011 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0349E38E14229AF100A5B011 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2BEDBDD1160D1321008AB839 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		0349E35714229AC500A5B011 = {
 			isa = PBXGroup;
 			children = (
+				2BEDBDD1160D1321008AB839 /* Default-568h@2x.png */,
 				0349E36C14229AC500A5B011 /* OpenGLES_Ch8_2 */,
 				0349E36514229AC500A5B011 /* Frameworks */,
 				0349E36314229AC500A5B011 /* Products */,
@@ -267,6 +270,7 @@
 				0349E38B14229AE000A5B011 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
 				032CE0C015152F5700484D45 /* boat.modelplist in Resources */,
 				032CE0C115152F5700484D45 /* skybox0.png in Resources */,
+				2BEDBDD2160D1321008AB839 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
