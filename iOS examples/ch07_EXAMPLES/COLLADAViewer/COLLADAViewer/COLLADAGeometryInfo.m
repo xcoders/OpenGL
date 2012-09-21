@@ -31,7 +31,7 @@
    *mesh;
 @property (nonatomic, readwrite, strong) NSMutableSet 
    *existingCombinations;
-@property (nonatomic, readwrite, assign) NSUInteger 
+@property (nonatomic, readwrite, assign) GLushort 
    nextAvalableIndex;
 @property (retain, nonatomic, readwrite) NSMutableDictionary 
    *mutableSourcesByID;
