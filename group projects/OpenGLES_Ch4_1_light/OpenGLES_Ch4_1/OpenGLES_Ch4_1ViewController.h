@@ -21,8 +21,6 @@
 
 @property (nonatomic) GLfloat
    centerVertexHeight;
-@property (nonatomic) GLfloat
-   lightAngle;
 @property (nonatomic) BOOL
    shouldUseFaceNormals;
 @property (nonatomic) BOOL
